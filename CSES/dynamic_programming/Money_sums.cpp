@@ -15,7 +15,7 @@ int main() {
   vector<int> a(n);
   for (int i = 0; i < n; i++) cin >> a[i];
   int maxn = n * 1000;
-  vector<vector<bool>> dp(n + 1, vector<bool>(maxn, false));
+  vector<vector<bool>> dp(n + 1, vector<bool>(maxn + 1, false));
 
   for (int i = 0; i <= n; i++) dp[i][0] = true;
 

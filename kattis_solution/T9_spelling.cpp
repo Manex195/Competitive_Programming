@@ -35,7 +35,7 @@ public:
     }
     cout << '\n';
   }
-
+  
   void solve() {
     int tt;
     cin >> tt;
